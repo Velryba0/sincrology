@@ -1,0 +1,10 @@
+.bg {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background: url('../images/img1.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
