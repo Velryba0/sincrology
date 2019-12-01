@@ -3,23 +3,26 @@
 .menu {
     position: fixed;
     display: flex;
+    flex-direction: column;
     width: 53%;
     height: 7%;
     border-bottom: 1.5px white solid;
     z-index: 5000;
     margin: 0 23%;
-    align-items: center ;
+    // align-items: center ;
     font-family: 'Darker Grotesque', sans-serif;
     
 }
 
 .logo {
     position: absolute;
-    width: 15%;
+    bottom: 21%;
+    width: 18%;
     z-index: 5000;
 }
 .menu-search, .menu-login, .menu-shop {
     position: absolute;
+    bottom: 21%;
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -39,19 +42,20 @@
 
 .menu-buyEnvironments, .menu-branch, .menu-loyalty, .menu-livingRoom, .menu-diningRoom, .menu-bedroom, .menu-carpet, .menu-external {
     position: absolute;
+    bottom: 36%;
     color: white;
     font-size: .65em;
     cursor: pointer;
 }
 
 .menu-buyEnvironments {
-    left: 18%;
+    left: 21%;
 }
 .menu-branch {
-    left: 36%;
+    left: 42%;
 }
 .menu-loyalty {
-    left: 48%;
+    left: 55.5%;
 }
 .menu-livingRoom {
     bottom: -50%;

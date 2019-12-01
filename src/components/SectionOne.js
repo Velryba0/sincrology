@@ -6,8 +6,12 @@ const SectionOne = () => {
     
 
     return (
+        <>
         <div className='bg'>
-       </div>
+            <h1 className='section-title'>Estilo</h1>
+            <h1 className='section-title1'>Escandinavo</h1>
+        </div>
+        </>
     )
 }
 
