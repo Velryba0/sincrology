@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/logo.png';
 
-import '../Sass/menu.styles.scss';
+import '../sass/menu.styles.scss';
 
 
 const Menu = () => {

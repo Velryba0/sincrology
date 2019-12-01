@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Sass/section-one.styles.scss'
+import '../sass/section-one.styles.scss'
 
 const SectionOne = () => {
 
@@ -8,8 +8,8 @@ const SectionOne = () => {
     return (
         <>
         <div className='bg'>
-            <h1 className='section-title'>Estilo</h1>
-            <h1 className='section-title1'>Escandinavo</h1>
+            <h1 >Estilo</h1>
+            <h1 >Escandinavo</h1>
         </div>
         </>
     )
