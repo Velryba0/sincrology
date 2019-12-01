@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './components/Header';
 import SectionOne from './components/SectionOne';
+import SectionTwo from './components/SectionTwo';
 
-import './Sass/app.styles.scss';
+import './sass/app.styles.scss';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <>
 		<Header/>
 		<SectionOne/>
+    <SectionTwo/>
     </>
   );
 }

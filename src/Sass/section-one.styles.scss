@@ -19,6 +19,7 @@
     margin: 0;
     font-family: 'Noto Serif JP', serif;
     transform: translateY(-60px);
+    cursor: default;
 }
 
 .bg > h1:nth-child(1)::after, .bg > h1:nth-child(1)::before {
