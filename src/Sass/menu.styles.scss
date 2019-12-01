@@ -1,3 +1,5 @@
+
+
 .menu {
     position: fixed;
     display: flex;
@@ -7,7 +9,7 @@
     z-index: 5000;
     margin: 0 23%;
     align-items: center ;
-
+    font-family: 'Darker Grotesque', sans-serif;
     
 }
 
@@ -16,25 +18,57 @@
     width: 15%;
     z-index: 5000;
 }
-
-.search {
+.menu-search, .menu-login, .menu-shop {
     position: absolute;
-    right: 7%;
     width: 20px;
     height: 20px;
+    cursor: pointer;
+}
+.menu-search {
+    right: 7%;
     background: url('../images/menu-search.png') no-repeat;
 }
-.login {
-    position: absolute;
+.menu-login {
     right: 3.2%;
-    width: 20px;
-    height: 20px;
     background: url('../images/menu-login.png') no-repeat;
 }
-.shop {
-    position: absolute;
+.menu-shop {
     right: 0%;
-    width: 20px;
-    height: 20px;
     background: url('../images/menu-shop.png') no-repeat;
+}
+
+.menu-buyEnvironments, .menu-branch, .menu-loyalty, .menu-livingRoom, .menu-diningRoom, .menu-bedroom, .menu-carpet, .menu-external {
+    position: absolute;
+    color: white;
+    font-size: .65em;
+    cursor: pointer;
+}
+
+.menu-buyEnvironments {
+    left: 18%;
+}
+.menu-branch {
+    left: 36%;
+}
+.menu-loyalty {
+    left: 48%;
+}
+.menu-livingRoom {
+    bottom: -50%;
+}
+.menu-diningRoom {
+    left: 7%;
+    bottom: -50%;
+}
+.menu-bedroom {
+    left: 16%;
+    bottom: -50%;
+}
+.menu-carpet {
+    left: 26%;
+    bottom: -50%;
+}
+.menu-external {
+    left: 34%;
+    bottom: -50%;
 }
