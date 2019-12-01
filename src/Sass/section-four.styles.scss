@@ -1,0 +1,80 @@
+.bg4 {
+    display: flex;
+    height: 806px;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-1 {
+    position: relative;
+}
+
+.column-1 > h1, .column-1 > a {
+    position: absolute;
+    color: white;
+}
+
+.column-1 > h1 {
+    left: 9%;
+    bottom: 9%;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2.7em;
+    cursor: default;
+}
+
+.column-1 > a {
+    width: 111px;
+    bottom: 6%;
+    left: 9%;
+    font-size: 1.3em;
+    letter-spacing: 1.5px;
+    background: none;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    background: url('../images/flecha.svg') no-repeat;
+    background-position: right 9px;
+    cursor: pointer;
+}
+
+.column-2 {
+    display: inline-block;
+    flex-direction: row;
+    height: 567px;
+    width: 600px;
+}
+
+.bg4 > img:nth-child(1) {               // Image catalog
+    position: absolute;
+    width: 496px;
+    height: 567px;
+   
+}
+.column-2 > img:nth-child(1) {               // Image item 1
+    position: relative;
+    width: 235px;
+    height: 268px;
+    margin: 0px 10px 10px 21px;
+    cursor: pointer;
+}
+.column-2 > img:nth-child(2) {               // Image item 2
+    position: relative;
+    width: 235px;
+    height: 268px;
+    margin: 0px 0px 10px 10px; 
+    cursor: pointer;             
+}
+.column-2 > img:nth-child(3) {                //Image item 3
+    position: relative;
+    width: 235px;
+    height: 268px;
+    margin: 10px 10px 10px 0px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+.column-2 > img:nth-child(4) {                //Image item 4
+    position: relative;
+    width: 235px;
+    height: 268px;
+    margin: 18px 0px 10px 10px;
+    cursor: pointer;
+}
