@@ -9,15 +9,22 @@
     margin: 0 23%;
     // align-items: center ;
     font-family: 'Darker Grotesque', sans-serif;
-    
+    font-size: 1.3em;
 }
 
 .logo {
-    position: absolute;
-    bottom: 21%;
-    width: 18%;
+    position: relative;
+    bottom: -6%;
+    width: 142px;
     z-index: 5000;
 }
+
+.menu-container {
+    position: relative;
+    width: 90%;
+    top: 27%;
+}
+
 .menu-search, .menu-login, .menu-shop {
     position: absolute;
     bottom: 21%;
@@ -38,23 +45,33 @@
     background: url('../images/menu-shop.png') no-repeat;
 }
 
-.menu-buyEnvironments, .menu-branch, .menu-loyalty, .menu-livingRoom, .menu-diningRoom, .menu-bedroom, .menu-carpet, .menu-external {
+.menu-livingRoom, 
+.menu-diningRoom, .menu-bedroom, .menu-carpet, .menu-external {
     position: absolute;
     bottom: 36%;
     color: white;
     font-size: .65em;
     cursor: pointer;
 }
-
-.menu-buyEnvironments {
-    left: 21%;
-}
-.menu-branch {
-    left: 37.5%;
-}
+.menu-buyEnvironments, .menu-branch, 
 .menu-loyalty {
-    left: 47.5%;
+    position: relative;
+    bottom: 23%;
+    color: white;
+    font-size: .65em;
+    margin: 15px;
+    cursor: pointer;
 }
+
+// .menu-buyEnvironments {
+//     left: 0%;
+// }
+// .menu-branch {
+//     left: 26%;
+// }
+// .menu-loyalty {
+//     left: 32%;
+// }
 .menu-livingRoom {
     bottom: -50%;
 }
