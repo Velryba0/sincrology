@@ -5,16 +5,16 @@
     align-items: center;
 }
 
-.column-1 {
+.bg4 > .column-1 {
     position: relative;
 }
 
-.column-1 > h1, .column-1 > a {
+.bg4 > .column-1 > h1, .bg4 > .column-1 > a {
     position: absolute;
     color: white;
 }
 
-.column-1 > h1 {
+.bg4 > .column-1 > h1 {
     left: 9%;
     bottom: 9%;
     font-family: 'Noto Serif JP', serif;
@@ -22,7 +22,7 @@
     cursor: default;
 }
 
-.column-1 > a {
+.bg4 > .column-1 > a {
     width: 111px;
     bottom: 6%;
     left: 9%;
@@ -36,11 +36,11 @@
     cursor: pointer;
 }
 
-.column-2 {
+.bg4 > .column-2 {
     display: inline-block;
     flex-direction: row;
     height: 567px;
-    width: 600px;
+    width: 520px;
 }
 
 .bg4 > img:nth-child(1) {               // Image catalog
@@ -49,21 +49,21 @@
     height: 567px;
    
 }
-.column-2 > img:nth-child(1) {               // Image item 1
+.bg4 > .column-2 > img:nth-child(1) {               // Image item 1
     position: relative;
     width: 235px;
     height: 268px;
     margin: 0px 10px 10px 21px;
     cursor: pointer;
 }
-.column-2 > img:nth-child(2) {               // Image item 2
+.bg4 > .column-2 > img:nth-child(2) {               // Image item 2
     position: relative;
     width: 235px;
     height: 268px;
     margin: 0px 0px 10px 10px; 
     cursor: pointer;             
 }
-.column-2 > img:nth-child(3) {                //Image item 3
+.bg4 > .column-2 > img:nth-child(3) {                //Image item 3
     position: relative;
     width: 235px;
     height: 268px;
@@ -71,7 +71,7 @@
     margin-left: 22px;
     cursor: pointer;
 }
-.column-2 > img:nth-child(4) {                //Image item 4
+.bg4 > .column-2 > img:nth-child(4) {                //Image item 4
     position: relative;
     width: 235px;
     height: 268px;

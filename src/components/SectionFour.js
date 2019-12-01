@@ -13,8 +13,7 @@ const SectionFour = () => {
         <div className='bg4' >    
                 <div className='column-1'>
         	        <img src={catalog} alt='Ambientes' />
-                    <h1 >Ambientes</h1>
-                   
+                    <h1 >Ambientes</h1>        
                      <a>VER MÁS </a>
                 </div>
                 <div className='column-2'>
