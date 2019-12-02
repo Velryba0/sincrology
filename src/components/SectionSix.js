@@ -14,9 +14,9 @@ const SectionSix = () => {
             <div className='column'>
                 <div className='row-1' >
                     <img src={book1} alt='book1'/>
-                    <img src={book2} alt='book1'/>
-                    <img src={book3} alt='book1'/>
-                    <img src={book4} alt='book1'/>
+                    <img src={book2} alt='book2'/>
+                    <img src={book3} alt='book3'/>
+                    <img src={book4} alt='book4'/>
                 </div>
                 <div className='row-2'>
                     <img src={catalog3} alt='book1'/>
