@@ -7,6 +7,7 @@ import SectionFour from './components/SectionFour';
 import SectionFive from './components/SectionFive';
 import SectionSix from './components/SectionSix';
 import SectionSeven from './components/SectionSeven';
+import SectionEight from './components/SectionEight';
 
 import './sass/app.styles.scss';
 
@@ -22,6 +23,7 @@ function App() {
     <SectionFive/>
     <SectionSix/>
     <SectionSeven/>
+    <SectionEight/>
     </>
   );
 }
