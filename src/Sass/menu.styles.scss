@@ -63,15 +63,6 @@
     cursor: pointer;
 }
 
-// .menu-buyEnvironments {
-//     left: 0%;
-// }
-// .menu-branch {
-//     left: 26%;
-// }
-// .menu-loyalty {
-//     left: 32%;
-// }
 .menu-livingRoom {
     bottom: -50%;
 }
@@ -90,4 +81,8 @@
 .menu-external {
     left: 34%;
     bottom: -50%;
+}
+
+@media (max-width: 450px) {
+    
 }

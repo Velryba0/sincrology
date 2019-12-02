@@ -38,9 +38,9 @@ const SectionNine = () => {
                 </form>
             </div>
             <div className='row-3'>
-				<div class="checkbox-container">
+				<div className="checkbox-container">
 					<input type="checkbox" value="None" id="checkbox-container" name="check" />
-					<label for="checkbox-container"></label>
+					<label htmlFor="checkbox-container"></label>
 				</div>
 				<p>He leído y acepto los términos y condiciones relativos al tratamiento de mis datos personales</p>
             </div>
