@@ -67,15 +67,15 @@
 			height: 50px;
 		}
 		& .row-2 .social img:nth-child(1) {				// Facebook
-			transform: scale(.5);
+			transform: scale(.5) translateX(-21px);
 			cursor: pointer;
 		} 
 		& .row-2 .social img:nth-child(2) {				// Instagram
-			transform: scale(.5) translateX(-50px);
+			transform: scale(.5) translateX(-250px);
 			cursor: pointer;
 		}
 		& .row-2 .social img:nth-child(3) {				// Pinterest
-			transform: translateX(-27px);
+			transform: scale(.53) translateX(-450px);
 			cursor: pointer;
 		}
 		& .row-3 {
@@ -171,23 +171,24 @@
 		}
 		& .row-2 .social {
 			position: absolute;
-			bottom: 60%;
-			left: 12%;
 			display: flex;
 			flex-direction: row;
 			width: 150px;
 			height: 50px;
 		}
 		& .row-2 .social img:nth-child(1) {				// Facebook
-			transform: scale(.6);
+			transform: scale(.65) translate(-40px, -55px);
 			cursor: pointer;
 		} 
 		& .row-2 .social img:nth-child(2) {				// Instagram
-			transform: scale(.6) translateX(-30px);
+			transform: scale(.7) translate(-180px, -50px);
 			cursor: pointer;
 		}
 		& .row-2 .social img:nth-child(3) {				// Pinterest
-			transform: scale(1.15) translateX(-13px);
+			position: relative;
+			transform: scale(.7) translate(-330px, -49px);
+			width: 100%;
+			z-index: 1000000;
 			cursor: pointer;
 		}
 		& .row-3 {

@@ -2,7 +2,7 @@ import React from 'react';
 import godaddy from '../images/godaddy.png'
 import facebook from '../images/facebook.svg';
 import instagram from '../images/instagram.svg';
-import pinterest from '../images/pinterest.svg';
+import pinterest from '../images/pinterestFinal.svg';
 
 import '../sass/footer.styles.scss';
 
@@ -20,8 +20,8 @@ const Footer = () => {
                 <a>Localizador de Tienda</a>
                 <div className='social'>
                     <img src={facebook} alt='facebook'/>
-					<img src={instagram} alt='facebook'/>
-					<img src={pinterest} alt='facebook'/>
+					<img src={instagram} alt='instagram'/>
+					<img src={pinterest} alt='pinterest'/>
                 </div>
                 <a>Blog</a>
             </div>

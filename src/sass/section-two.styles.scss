@@ -81,7 +81,6 @@
     
     .bg2 > button {
         position: relative;
-        top: 50%;
         left: 30%;
         padding: 3px 50px 6px 20px;
         font-size: 1.2em;;
@@ -89,6 +88,7 @@
         border: 1px solid white;
         color: white;
         font-family: 'Darker Grotesque', sans-serif;
+        transform: translateY(150px);
         cursor: pointer;
         &::after {
             content: '';
