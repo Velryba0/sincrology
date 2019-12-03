@@ -2,9 +2,6 @@ import React from 'react';
 import '../sass/section-one.styles.scss'
 
 const SectionOne = () => {
-
-    
-
     return (
         <>
         <div className='bg'>

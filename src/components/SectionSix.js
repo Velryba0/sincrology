@@ -14,9 +14,7 @@ const SectionSix = () => {
             <div className='column'>
                 <div className='row-1' >
                     <img src={book1} alt='book1'/>
-                    <img src={book2} alt='book2'/>
-                    <img src={book3} alt='book3'/>
-                    <img src={book4} alt='book4'/>
+                  
                 </div>
                 <div className='row-2'>
                     <img src={catalog3} alt='book1'/>
@@ -27,9 +25,9 @@ const SectionSix = () => {
                         <p>Visítanos en cualquier de nuestros showrooms en 
                         <span> Puebla/Zavaleta y CDMX/Altavista/Interlomas.</span></p>
 
-                        <p>Contamos con la capacidad para contribuir en todo tipo de proyectos de decoración, poniendo a tu disposición una amplia gama de muebles, tapetes, persianas, cortinas, lámparas, artículos decorativos y una ilimitada variedad de estilos.</p>
+                        <p><span>Contamos con la capacidad para contribuir en todo tipo de proyectos de decoración, poniendo a tu disposición una amplia gama de muebles, tapetes, persianas, cortinas, lámparas, artículos decorativos y una ilimitada variedad de estilos.</span></p>
 
-                        <p>Nuestro objetivo es brindar un servicio que te acompaña en cada paso en la creación de ambientes que solucionen tus necesidades, dando a tus espacios un estilo único y personal.</p>
+                        <p><span>Nuestro objetivo es brindar un servicio que te acompaña en cada paso en la creación de ambientes que solucionen tus necesidades, dando a tus espacios un estilo único y personal.</span></p>
                     </div>
                 </div>
             </div>
