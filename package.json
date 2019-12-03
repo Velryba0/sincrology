@@ -1,6 +1,9 @@
 {
   "name": "sincrology",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.16.0"
+  },
   "private": true,
   "dependencies": {
     "node-sass": "^4.13.0",
