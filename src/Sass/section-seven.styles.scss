@@ -1,0 +1,114 @@
+@media(min-width: 451px) {
+    .bg7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        height: 795px;
+        background: black;
+        & > .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        & > .row > .column {                    // Text        
+            margin: 0px 50px 0px 0px;
+            width: 400px;
+        }
+        & > .row > .column > h1 {           //Title
+            position: relative;
+            top: -40px;
+            font-family: 'Noto Serif JP', serif;   
+            color: white;
+            cursor: default;
+        }
+        & > .row > .column > p {            //Parraf
+            color: white;
+            font-family: 'Darker Grotesque', sans-serif;
+            font-size: 1.3em;
+            line-height: 35px;
+            cursor: default;
+        }
+        & > .row > .column > button {
+            position: relative;
+            bottom: -9.5%;
+            left: 36%;
+            width: 210px;
+            font-size: 1.1em;
+            letter-spacing: 1.2px;
+            padding: 8px 25px 10px 20px;
+            border: 1px solid white;
+            text-align: center;
+            margin: 15px;
+            color: white;
+            font-family: 'Darker Grotesque', sans-serif;
+            background: url('../images/flecha.svg') no-repeat;
+            background-size: 3.5%;
+            background-position: 90% 52%;
+            cursor: pointer;
+        }
+    }
+}
+@media(max-width: 450px) {
+    .bg7 {
+        height: 905px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        & > .row {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        & > .row > img {
+            position: relative;
+            top: -3%;
+            width: 100vw;
+        }
+        & > .row > .column {              // Text        
+            // margin: 0px 50px 0px 0px;
+            text-align: center;
+            width: 100%;
+        }
+        & > .row > .column > h1 {           //Title
+            position: relative;
+            top: 3%;
+            left: 10%;
+            width: 80vw;
+            padding: 0px 0px 0px 0px;
+            font-family: 'Noto Serif JP', serif;   
+            font-size: 1.7em;
+            color: white;
+            cursor: default;
+        }
+        & > .row > .column > p {       //Parraf
+            position: relative;    
+            left: 11%; 
+            width: 80vw;
+            color: white;
+            font-family: 'Darker Grotesque', sans-serif;
+            font-size: 1.3em;
+            line-height: 35px;
+            cursor: default;
+        }
+        & > .row > .column > button {
+            position: relative;
+            bottom: 2%;
+            left: 3%;
+            width: 210px;
+            font-size: 1.1em;
+            letter-spacing: 1.2px;
+            padding: 8px 25px 10px 20px;
+            border: 1px solid white;
+            text-align: center;
+            margin: 15px;
+            color: white;
+            font-family: 'Darker Grotesque', sans-serif;
+            background: url('../images/flecha.svg') no-repeat;
+            background-size: 3.5%;
+            background-position: 90% 52%;
+            cursor: pointer;
+        }
+    }
+}

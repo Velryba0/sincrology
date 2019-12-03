@@ -1,0 +1,113 @@
+@media (min-width: 451px) {
+    .bg2 {
+        height: 822px;
+        background: url('../images/img2.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .bg2 > h1 {
+        position: relative;
+        top: 34%;
+        left: 60%;
+        height: 57px;
+        width: 150px;
+        font-size: 3em;
+        font-weight: 100;
+        margin: 0;
+        font-family: 'Noto Serif JP', serif;
+        color: white;
+        cursor: default;
+    }
+    
+    .bg2 > button {
+        position: relative;
+        top: 45%;
+        left: 65%;
+        padding: 3px 50px 6px 20px;
+        font-size: 1.2em;;
+        background: none;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Darker Grotesque', sans-serif;
+        cursor: pointer;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 21%;
+            left: 64px;
+            right: 62px;
+            transform: rotate(40deg) translate(34px, -19px);
+            border: 1px solid white;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 60%;
+            left: 64px;
+            right: 62px;
+            transform: rotate(-40deg) translate(30px, 24px);
+            border: 1px solid white;
+        }
+       
+    }
+}
+@media (max-width: 450px) {
+    .bg2 {
+        width: 100vw;
+        height: 50vh;
+        background: url('../images/img2-mobile.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .bg2 > h1 {
+        position: relative;
+        top: 34%;
+        left: 15%;
+        height: 57px;
+        width: 150px;
+        font-size: 3em;
+        font-weight: 100;
+        margin: 0;
+        font-family: 'Noto Serif JP', serif;
+        color: white;
+        cursor: default;
+    }
+    
+    .bg2 > button {
+        position: relative;
+        top: 50%;
+        left: 30%;
+        padding: 3px 50px 6px 20px;
+        font-size: 1.2em;;
+        background: none;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Darker Grotesque', sans-serif;
+        cursor: pointer;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 21%;
+            left: 64px;
+            right: 62px;
+            transform: rotate(40deg) translate(34px, -19px);
+            border: 1px solid white;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 60%;
+            left: 64px;
+            right: 62px;
+            transform: rotate(-40deg) translate(30px, 24px);
+            border: 1px solid white;
+        }
+       
+    }
+}
