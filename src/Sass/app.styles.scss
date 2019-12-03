@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:200&display=swap');
-html, body{
-    height:  7700px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    background-color: black;
+@media(min-width: 451px) {
+    html, body{
+        height:  7700px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        background-color: black;
+    }
+}
+@media(max-width: 450px) {
+    html, body{
+        height:  6900px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        background-color: black;
+    }
 }
