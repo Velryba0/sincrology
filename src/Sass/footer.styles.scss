@@ -1,0 +1,215 @@
+@media(min-width: 451px) {
+	.bgFooter {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 266px;
+		background-color: black;
+		color: white;
+		font-family: 'Darker Grotesque', sans-serif;
+	
+		& .row-1 , & .row-2, & .row-3 {
+			width: 50%;
+			height: 60px;
+			display: flex;
+			flex-direction: row;
+		}
+		& .row-1 {
+			position: relative;
+			justify-content: left;
+			align-items: center;
+			font-weight: 600;
+			& a {
+				letter-spacing: .5px;
+				// margin: 0px 60px 0px 60px;
+				cursor: pointer;
+			}
+			& a:nth-child(2) {
+				position: absolute;
+				left: 28%;
+			}
+			& a:nth-child(3) {
+				position: absolute;
+				left: 58%;
+			}
+			& a:nth-child(4) {
+				position: absolute;
+				right: 0%;
+			}
+		}
+		& .row-2 {
+			position: relative;
+			justify-content: left;
+			align-items: center;
+			font-weight: 600;
+			& a {
+				letter-spacing: .5px;
+				// margin: 0px 60px 0px 60px;
+				cursor: pointer;
+			}
+			& a:nth-child(2) {
+				position: absolute;
+				left: 28%;
+			}
+			& a:nth-child(4) {
+				position: absolute;
+				right: 6%;
+			}
+		}
+		& .row-2 .social {
+			position: absolute;
+			left: 55%;
+			display: flex;
+			flex-direction: row;
+			width: 150px;
+			height: 50px;
+		}
+		& .row-2 .social img:nth-child(1) {				// Facebook
+			transform: scale(.5);
+			cursor: pointer;
+		} 
+		& .row-2 .social img:nth-child(2) {				// Instagram
+			transform: scale(.5) translateX(-50px);
+			cursor: pointer;
+		}
+		& .row-2 .social img:nth-child(3) {				// Pinterest
+			transform: translateX(-27px);
+			cursor: pointer;
+		}
+		& .row-3 {
+			position: relative;
+			display: flex;
+			flex-direction: row;
+			border-top: .1em solid white;
+			justify-content: left;
+			align-items: center;
+			cursor: default;
+			& p {
+				position: absolute;
+				letter-spacing: .5px;
+				top: 30%;
+			}
+			& img {
+				position: absolute;
+				top: 40%;
+				right: 0%;
+			}
+		}
+	}
+}
+@media(max-width: 450px) {
+	.bgFooter {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 266px;
+		background-color: black;
+		color: white;
+		font-family: 'Darker Grotesque', sans-serif;
+	
+		& .row-1 , & .row-2, & .row-3 {
+			width: 50%;
+			height: 60px;
+			display: flex;
+			flex-direction: row;
+		}
+		& .row-1 {
+			position: relative;
+			justify-content: left;
+			align-items: center;
+			font-weight: 900;
+			font-size: 1.5em;
+			& a {
+				letter-spacing: .5px;
+				// margin: 0px 60px 0px 60px;
+				cursor: pointer;
+			}
+			& a:nth-child(1) {
+				visibility: hidden;
+			}
+			& a:nth-child(2) {
+				position: absolute;
+				left: 28%;
+				visibility: hidden;
+			}
+			& a:nth-child(3) {
+				position: absolute;
+				bottom: 60%;
+				left: 25%;
+			}
+			& a:nth-child(4) {
+				position: absolute;
+				right: 0%;
+				visibility: hidden;
+			}
+		}
+		& .row-2 {
+			position: relative;
+			justify-content: left;
+			align-items: center;
+			font-weight: 600;
+			& a {
+				letter-spacing: .5px;
+				// margin: 0px 60px 0px 60px;
+				cursor: pointer;
+				visibility: hidden;
+			}
+			& a:nth-child(2) {
+				position: absolute;
+				left: 28%;
+				visibility: hidden;
+			}
+			& a:nth-child(4) {
+				position: absolute;
+				right: 6%;
+				visibility: hidden;
+			}
+		}
+		& .row-2 .social {
+			position: absolute;
+			bottom: 60%;
+			left: 12%;
+			display: flex;
+			flex-direction: row;
+			width: 150px;
+			height: 50px;
+		}
+		& .row-2 .social img:nth-child(1) {				// Facebook
+			transform: scale(.6);
+			cursor: pointer;
+		} 
+		& .row-2 .social img:nth-child(2) {				// Instagram
+			transform: scale(.6) translateX(-30px);
+			cursor: pointer;
+		}
+		& .row-2 .social img:nth-child(3) {				// Pinterest
+			transform: scale(1.15) translateX(-13px);
+			cursor: pointer;
+		}
+		& .row-3 {
+			position: relative;
+			top: 21%;
+			display: flex;
+			flex-direction: row;
+			width: 90vw;
+			border-top: .1em solid white;
+			justify-content: left;
+			align-items: center;
+			cursor: default;
+			& p {
+				position: absolute;
+				bottom: 25%;
+				font-size: .9em;
+			}
+			& img {
+				position: absolute;
+				bottom: 150%;
+				right: 20%;
+			}
+		}
+	}
+}

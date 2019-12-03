@@ -1,0 +1,177 @@
+@media(min-width: 451px) {
+    .bg4 {
+        display: flex;
+        height: 806px;
+        justify-content: center;
+        align-items: center;
+        background: #efefef;
+    }
+    
+    .bg4 > .column-1 {
+        position: relative;
+    }
+    
+    .bg4 > .column-1 > h1, .bg4 > .column-1 > a {
+        position: absolute;
+        color: white;
+    }
+    
+    .bg4 > .column-1 > h1 {
+        left: 9%;
+        bottom: 9%;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 2.7em;
+        cursor: default;
+    }
+    
+    .bg4 > .column-1 > a {
+        width: 111px;
+        bottom: 6%;
+        left: 9%;
+        font-size: 1.3em;
+        letter-spacing: 1.5px;
+        background: none;
+        color: white;
+        font-family: 'Darker Grotesque', sans-serif;
+        background: url('../images/flecha.svg') no-repeat;
+        background-position: right 9px;
+        cursor: pointer;
+    }
+    
+    .bg4 > .column-2 {
+        display: inline-block;
+        flex-direction: row;
+        height: 567px;
+        width: 520px;
+    }
+    
+    .bg4 > img:nth-child(1) {               // Image catalog
+        position: absolute;
+        width: 496px;
+        height: 567px;
+       
+    }
+    .bg4 > .column-2 > img:nth-child(1) {               // Image item 1
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 0px 10px 10px 21px;
+        cursor: pointer;
+    }
+    .bg4 > .column-2 > img:nth-child(2) {               // Image item 2
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 0px 0px 10px 10px; 
+        cursor: pointer;             
+    }
+    .bg4 > .column-2 > img:nth-child(3) {                //Image item 3
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 10px 10px 10px 0px;
+        margin-left: 22px;
+        cursor: pointer;
+    }
+    .bg4 > .column-2 > img:nth-child(4) {                //Image item 4
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 18px 0px 10px 10px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 450px) {
+    .bg4 {
+        display: flex;
+        flex-direction: column;
+        height: 929px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #efefef;
+    }
+    
+    .bg4 > .column-1 {
+        position: relative;
+        width: 100%;
+    }
+
+    .bg4 > .column-1 > img{
+        position: relative;
+        top: 8%;
+        right: 18%;
+        transform: scale(.65);
+        
+    }
+    
+    .bg4 > .column-1 > h1, .bg4 > .column-1 > a {
+        position: absolute;
+        color: white;
+    }
+    
+    .bg4 > .column-1 > h1 {
+        left: 19%;
+        bottom: 12%;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 2.7em;
+        cursor: default;
+    }
+    
+    .bg4 > .column-1 > a {
+        width: 111px;
+        bottom: -75%;
+        left: 36%;
+        font-size: 1.3em;
+        letter-spacing: 1.5px;
+        border: 1px solid black;
+        padding: 4px 6px 6px 25px;
+        background: none;
+        color: black;
+        font-family: 'Darker Grotesque', sans-serif;
+        background: url('../images/flecha-black.svg') no-repeat;
+        background-position: 120px 14px;
+        cursor: pointer;
+    }
+    
+    .bg4 > .column-2 {
+        position: relative;
+        bottom: 14%;
+        display: inline-block;
+        flex-direction: row;
+        height: 567px;
+        width: 520px;
+        transform: scale(.66);
+    }
+    
+    .bg4 > .column-2 > img:nth-child(1) {               // Image item 1
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 0px 10px 10px 21px;
+        cursor: pointer;
+    }
+    .bg4 > .column-2 > img:nth-child(2) {               // Image item 2
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 0px 0px 10px 10px; 
+        cursor: pointer;             
+    }
+    .bg4 > .column-2 > img:nth-child(3) {                //Image item 3
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 10px 10px 10px 0px;
+        margin-left: 22px;
+        cursor: pointer;
+    }
+    .bg4 > .column-2 > img:nth-child(4) {                //Image item 4
+        position: relative;
+        width: 235px;
+        height: 268px;
+        margin: 18px 0px 10px 10px;
+        cursor: pointer;
+    }
+}
