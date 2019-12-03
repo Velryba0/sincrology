@@ -4,20 +4,24 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    border-bottom: 1.5px white solid;
     width: 90%;
     height: 7%;
     top: 3%;
     left: 5.7%;
     font-family: 'Darker Grotesque', sans-serif;
+    z-index: 50000;
 }
 .logo-mob {
     position: relative;
     height: 80%;
+    bottom: 9%;
     left: 12%;
     z-index: 5000;
 }
 .menu-mob-container {
     position: relative;
+    bottom: 6%;
     width: 40px;
     height: 40px;
     z-index: 5000;
@@ -25,7 +29,7 @@
 }
 .menu-mob-search, .menu-mob-login, .menu-mob-shop {
     position: absolute;
-    bottom: 30%;
+    bottom: 36%;
     width: 20px;
     right: 0%;
     height: 20px;

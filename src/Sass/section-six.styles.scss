@@ -1,35 +1,95 @@
-.bg6 {
-    height: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-	align-items: center;
-	& > .column > .row-1 > img {
-		margin: 0px 0px 0px 9px;
-		cursor: pointer;
-	}
-    & > .column > .row-2 {              // Text
+@media(min-width: 451px) {
+    .bg6 {
+        height: 1200px;
         display: flex;
-		flex-direction: row;
-		justify-content: center;
-        font-family: 'Darker Grotesque', sans-serif;
-        font-size: 1.3em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & > .column > .row-1 > img {
+            margin: 0px 0px 0px 9px;
+            cursor: pointer;
+        }
+        & > .column > .row-2 {              // Text
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: 'Darker Grotesque', sans-serif;
+            font-size: 1.3em;
+        }
+        
+        & > .column > .row-2 >.column-1 {   // Catalog
+            width: 553px;
+            height: 553px;
+        }
+    
+        & > .column > .row-2 >.column-1 > p {
+            margin: 15px 0px 0px 25px;
+        }
+        
+        & > .column > .row-2 >.column-1 > p > span {
+            font-weight: 900;
+        }
+    
+        & > .column > .row-2 >.column-1 > img {
+            margin: 25px;
+        }
     }
     
-    & > .column > .row-2 >.column-1 {   // Catalog
-        width: 553px;
-        height: 553px;
-    }
+}
+@media(max-width: 450px) {
+    .bg6 {
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: white;
 
-    & > .column > .row-2 >.column-1 > p {
-        margin: 15px 0px 0px 25px;
-	}
-	
-	& > .column > .row-2 >.column-1 > p > span {
-		font-weight: 900;
-	}
+        & > .column > .row-1 > img {
+            position: relative;
+            top: 3%;
+            left: 23%;
+            transform: scale(.8);
+            margin: 0px 0px 0px 9px;
+            cursor: pointer;
+        }
+        & > .column > .row-2 {              // Text
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: 'Darker Grotesque', sans-serif;
+            font-size: 1.3em;
+        }
 
-    & > .column > .row-2 >.column-1 > img {
-        margin: 25px;
+        & > .column > .row-2 > img {
+            position: relative;
+            transform: scale(.6) translateY(-28%);
+        }
+        
+        & > .column > .row-2 >.column-1 {   // Catalog
+            width: 100vw;
+            height: 553px;
+        }
+    
+        & > .column > .row-2 >.column-1 > p {
+            position: relative;
+            bottom: 39%;
+            left: 24%;
+            margin: 15px 0px 0px 25px;
+            text-align: center;
+        }
+        
+        & > .column > .row-2 >.column-1 > p > span {
+            font-weight: 900;
+        }
+    
+        & > .column > .row-2 >.column-1 > img {
+            position: relative;
+            bottom: 34%;
+            left: 28%;
+            transform: scale(.8);
+            margin: 25px;
+        }
     }
+    
 }
