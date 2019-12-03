@@ -88,9 +88,8 @@
     
         & > .column > .row-2 >.column-1 > img {
             position: relative;
-            bottom: 34%;
             left: 3%;
-            transform: scale(.8);
+            transform: scale(.8) translateY(-240px);
             margin: 25px;
         }
     }

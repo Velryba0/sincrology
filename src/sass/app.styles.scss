@@ -11,14 +11,16 @@
     }
 }
 @media(max-width: 450px) {
-    html, body, #root{
+    html, body{
         width: 100vw;
-        height:  6900px;
+        height:  6750px;
         margin: 0;
         padding: 0;
         list-style: none;
         text-decoration: none;
         background-color: black;
-        overflow: auto;
+    }
+    #root {
+        overflow: hidden;
     }
 }
